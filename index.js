@@ -9,7 +9,7 @@ const unusedVar = 42;
 function division(x, y) {
   if (y === 0) {
     console.log('Division par zéro !');
-    return;
+    return; zaeaeaze
   }
   return x / y;
 }
