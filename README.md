@@ -46,7 +46,7 @@ git config core.hooksPath
 chmod +x .husky/pre-commit
 ```
 
-- Cette fois ci pre-commit est bien configuré, mais il ne trouve pas le dossier `/h`, probablement une erreur de configuration dans le bash, je corrige ...
+- Cette fois ci pre-commit est bien configuré, mais il ne trouve pas le dossier `/h`, probablement une erreur de configuration dans le bash, je corrige ... 
 
 ```bash
 #!/usr/bin/env sh
@@ -55,7 +55,7 @@ chmod +x .husky/pre-commit
 npx eslint .
 ```
 
-- Le commit est finalement bloqué, je corrige les erreurs que je me suis faite et je push ...
+- Le commit est finalement bloqué, je corrige les erreurs que je me suis faite et je push ... (Note que le linter passe actuellement sur tout et genère un warning lorsqu'il passe sur un dossier)
 
 ### Partie 4 - 0 :
 
@@ -91,3 +91,4 @@ npm error A complete log of this run can be found in: /Users/frederichuang/.npm/
 - J'en déduit que la version 9.x que je possède n'est plus compatible avec la config airbnb, je vais donc passer à la suite pour l'instant.
 
 ### Partie 5 - 0 : 
+
