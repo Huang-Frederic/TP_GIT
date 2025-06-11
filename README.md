@@ -94,3 +94,6 @@ npm error A complete log of this run can be found in: /Users/frederichuang/.npm/
 
 - Il semblerait qu'il y ait une erreur dans l'énoncé, il faut créer le fichier non pas dans `github/workflows/lint.yml` mais dans `./github/workflows/lint.yml`
 
+### Partie 6 - 0 :
+
+- Mergé 
