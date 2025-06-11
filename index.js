@@ -9,12 +9,12 @@ const unusedVar = 42;
 function division(x, y) {
   if (y === 0) {
     console.log('Division par zéro !');
-    return; zaazeaeazeaeaze
+    return;
   }
   return x / y;
 }
 
-console.log(additionner(5,3))aze;
+console.log(additionner(5,3));
 
 const message = 'Bonjour le monde';
 
