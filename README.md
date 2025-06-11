@@ -32,3 +32,16 @@ Partie 3 - 1 :
 ```json
 npx eslint .
 ```
+
+- Il semblerait que ça ne marche toujours pas, en tapant la commande 
+
+```bash
+git config core.hooksPath 
+```
+
+- Je remarque que .husky/_ est référencé mais pas correctement, il devrait pointer vers .husky, en y mettant le pre-commit, c'est donc ce que je fais. 
+- De plus, il en regardant le droits de la commande, elle n'a pas la possibilité de s'exécuter, je change donc ces droits...
+
+```bash
+chmod +x .husky/pre-commit
+```
